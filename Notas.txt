@@ -1,0 +1,17 @@
+- Creamos la carpeta Controllers donde guardaremos todos nuestros controladores
+    - Creamos el archivo LoginController.php
+        - Creamos el identificado unico para los controladores (namespace Controllers)
+        - Creamos la clase LoginController
+            - Creamos una funcion estatica para Logiarnos
+            - Creamos una funcion estatica para Cerrar Sesion
+            - Creamos una funcion estatica para Crear nuestra cuenta
+            - Creamos una funcion estatica para quienes olvidan sus contraseñas
+            - Creamos una funcion estatica para reestablecer nuestra contraseña
+
+- Creamos la carpeta Includes donde estara nuestra conexion a la base de datos y sus diferentes funciones, a la misma ves estas estaran conectadas con todos los archivos que necesiten recibir y mandar datos de la base de datos.
+- Creamos la carpeta Models donde estaran todas nuestras funciones CRUD a la base de datos
+- Instalamos la carpeta y los archivos de Node_modules
+- Creamos la carpeta Public donde se encontraran todos los respectivos enlaces de la pagina conectadas con la base de datos, asi como todos los estilos css y los scripts de JavaScript sin saltos de linea
+- Creamos la carpeta Base, donde se encontraran todo nuestros estilos de sass y los scripts de JavaScript dando estilos y interaccion a la pagina
+- Instalamos la carpeta Vendor con sus respectivos archivos para cargar nuestras respectivas librerias y dependecias de php
+- Creamos la carpeta View donde se encontrara todo nuestro documentos Html conectados con sus respectivos archivos necesarios
